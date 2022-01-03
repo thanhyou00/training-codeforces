@@ -1,0 +1,18 @@
+* Link : https://codeforces.com/problemset/problem/1619/A 
+
+* Idea 
+
+==> "YES"
+
+TH1 : Độ dài chuỗi là chẵn
+
+TH2 : Độ dài chuỗi là chẵn và các kí tự trùng nhau hết
+
+=> dùng substr so sánh từ 0->len/2 với len/2->len
+
+==> "NO"
+
+TH1 : Độ dài chuỗi lẻ
+
+TH2 : Độ dài là chuỗi chẵn nhưng bị sai
+=> VD : abcd hoặc xxyy 

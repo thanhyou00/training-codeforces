@@ -1,0 +1,14 @@
+* Link : https://codeforces.com/problemset/problem/1622/A
+
+* Idea
+
+====> if(true) YES
+=> cho vào map
+
+TH 1 : Có 2 hoặc 3 số giống nhau trong 3 số
+=> số còn lại phải chia hết cho 2
+
+TH 2 : Cả 3 số đều khác nhau
+=> tổng 2 số phải bằng số max (l1+l2+l3)/2 = max
+
+====> else NO
