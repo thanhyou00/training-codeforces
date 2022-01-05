@@ -2,3 +2,14 @@
 
 * Idea
 
+==> Duyệt mảng nếu phần tử bị lặp >= 2 lần thì sum+2, không bị lặp thì sum+1
+
+VD : 1 1 1 2 3 4 => kq là 5
+
+cho vào set : 1 2 3 4 => 
+ 1 xh 3 lần => +2
+ 2 xh 1 lần => +1
+ 3 xh 1 lần => +1
+ 4 xh 1 lần => +1
+
+=> TH đặ biệt : 0 0 0 1 2 2 3 => if arr[i] == 0 và arr[i] xh >=1 lần => luôn +1
