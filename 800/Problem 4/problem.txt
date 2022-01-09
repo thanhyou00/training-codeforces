@@ -1,0 +1,8 @@
+* Link : https://codeforces.com/problemset/problem/1607/A
+
+* Idea
+
+==> Lấy trị tuyệt đối của vị trí của phần tử thứ i trừ đi phần tử thứ i-1 trong chuỗi
+
+
+
